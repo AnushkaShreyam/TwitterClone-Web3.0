@@ -38,6 +38,7 @@ contract Decentratwitter is ERC721URIStorage {
         string hash,
         uint256 tipAmount,
         address payable author
+        //posttipped function
     );
 
     constructor() ERC721("Decentratwitter", "DAPP") {}
