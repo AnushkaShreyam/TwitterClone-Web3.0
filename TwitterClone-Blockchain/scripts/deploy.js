@@ -25,7 +25,6 @@ async function main() {
   );
   console.log("Decentratwitter deployed to:", decentratwitter.address);
 }
-
 main()
   .then(() => process.exit(0))
   .catch((error) => {
