@@ -1,4 +1,5 @@
 const fs = require('fs');
+const fs = require('fs');
 const { ethers } = require('hardhat');
 async function main() {
   const [deployer, user1] = await ethers.getSigners();
