@@ -1,3 +1,4 @@
+//I will be using solidity further.
 //SPDX-License-Identifier: MIT
 // Two pages to app: Home and Profile
 // Must have NFT to post content
