@@ -1,3 +1,4 @@
+//Importing useful context
 import { useState, useEffect } from 'react'
 import { ethers } from "ethers"
 import { Row, Form, Button, Card, ListGroup } from 'react-bootstrap'
