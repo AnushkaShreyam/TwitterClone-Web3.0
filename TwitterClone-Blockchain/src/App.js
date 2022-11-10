@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import { useState, useEffect } from 'react'
 import { ethers } from "ethers"
-import DecentratwitterAbi from './contractsData/decentratwitter.json'
-import DecentratwitterAddress from './contractsData/decentratwitter-address.json'
+import DecentratwitterAbi from './contractsData/twitterclone.json'
+import DecentratwitterAddress from './contractsData/twitterclone-address.json'
 import { Spinner, Navbar, Nav, Button, Container } from 'react-bootstrap'
 import logo from './logo.png'
 import Home from './Home.js'
@@ -41,7 +41,7 @@ function App() {
   const loadContract = async (signer) => {
 
     // Get deployed copy of Decentratwitter contract
-    const contract = new ethers.Contract(DecentratwitterAddress.address, DecentratwitterAbi.abi, signer)
+    const contract = new ethers.Contract(twittercloneAddress.address, twittercloneAbi.abi, signer)
     setContract(contract)
     setLoading(false)
   }
@@ -51,9 +51,9 @@ function App() {
         <>
           <Navbar expand="lg" bg="secondary" variant="dark">
             <Container>
-              <Navbar.Brand href="http://www.dappuniversity.com/bootcamp">
+              <Navbar.Brand href="">
                 <img src={logo} width="40" height="40" className="" alt="" />
-                &nbsp; Decentratwitter
+                &nbsp; twitterclone
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
