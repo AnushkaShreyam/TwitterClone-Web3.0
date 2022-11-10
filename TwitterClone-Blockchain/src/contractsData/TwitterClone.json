@@ -169,7 +169,6 @@
       "stateMutability": "nonpayable",
       "type": "function"
     },
-//non payable state mutability which approves each of the user.
     {
       "inputs": [
         {
