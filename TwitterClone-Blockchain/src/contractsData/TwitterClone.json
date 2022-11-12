@@ -58,12 +58,6 @@
       "name": "ApprovalForAll",
       "type": "event"
     },
-    
-    //{
-    //"anonymous" : true,
-    //  "inputs" : [... all the terms/ address of basic nonce],]
-    //}
-    
     {
       "anonymous": false,
       "inputs": [
