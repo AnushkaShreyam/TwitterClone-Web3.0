@@ -1,4 +1,3 @@
-//Importing useful components
 import {
   Link,
   BrowserRouter,
