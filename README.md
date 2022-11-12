@@ -19,13 +19,13 @@ Decentralised Twitter -> Pre - Final Year Project
 
 ### 2. Install Dependencies:
 ```
-$ cd decentratwitter
+$ cd TwitterClone-Blockchain
 $ npm install
 ```
 ### 3. Boot up local development blockchain
 
 ```
-$ cd decentratwitter
+$ cd TwitterClone-Blockchain
 $ npx hardhat node
 ```
 
