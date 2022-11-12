@@ -42,7 +42,7 @@ contract TwitterClone is ERC721URIStorage {
         //posttipped function
     );
 
-    constructor() ERC721("Decentratwitter", "DAPP") {}
+    constructor() ERC721("TwitterClone", "DAPP") {}
 
     function mint(string memory _tokenURI) external returns (uint256) {
         tokenCount++;
